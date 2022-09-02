@@ -4,12 +4,13 @@
  * and open the template in the editor.
  */
 package MySQL;
-
+// Librerias Agreadas
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+// Final de librerias
 public class Java extends javax.swing.JFrame {
+    // Elementos generados para conexión
     Connection con;
     String driver="com.mysql.cj.jdbc.Driver";
     String user="root";
@@ -80,6 +81,7 @@ public class Java extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    // Llamado de funcion generada para la conexión
      conectar();
     }//GEN-LAST:event_jButton1ActionPerformed
 

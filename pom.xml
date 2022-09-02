@@ -10,6 +10,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <!-- Inicio de elemento Agregado -->
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
@@ -18,4 +19,5 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+    <!-- Fin elemento agregado -->
 </project>
